@@ -3,6 +3,8 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   output: 'export',
   basePath: '/amigo-chat',
+  assetPrefix: '/amigo-chat',
+  trailingSlash: true,
   images: {
     unoptimized: true,
     remotePatterns: [
